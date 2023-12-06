@@ -1,3 +1,3 @@
 module.exports = function sum(arr) {
-  return arr.reduce((rollingSum, val) => rollingSum + val);
+  return arr.length ? arr.reduce((rollingSum, val) => rollingSum + val) : 0;
 }
